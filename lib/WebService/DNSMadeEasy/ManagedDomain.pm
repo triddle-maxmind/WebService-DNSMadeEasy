@@ -129,7 +129,7 @@ WebService::DNSMadeEasy::ManagedDomain
 
 =head1 SYNOPSIS
 
-    # These methods return L<WebService::DNSMadeEasy::ManagedDomain> objects.
+    # These methods return WebService::DNSMadeEasy::ManagedDomain objects.
     my @domains = $dns->managed_domains;
     my $domain  = $dns->get_managed_domain('example.com');
     my $domain  = $dns->create_managed_domain('stegasaurus.com');
@@ -153,7 +153,7 @@ WebService::DNSMadeEasy::ManagedDomain
     $domain->process_multi;
     $domain->updated;
 
-    # These methods return L<WebService::DNSMadeEasy::ManagedDomain::Record> objects.
+    # These methods return WebService::DNSMadeEasy::ManagedDomain::Record objects.
     $domain->create_record(
         name         => 'www',
         type         => 'A',
@@ -168,6 +168,15 @@ WebService::DNSMadeEasy::ManagedDomain
 =head1 DESCRIPTION
 
 This object represents a domain.
+=head1 SEE ALSO
+
+=over 4
+
+=item L<WebService::DNSMadeEasy::ManagedDomain::Record>
+
+=item L<WebService::DNSMadeEasy>
+
+=back
 
 =cut
 

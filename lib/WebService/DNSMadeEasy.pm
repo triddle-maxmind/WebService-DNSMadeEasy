@@ -118,6 +118,18 @@ Here you can set the User-Agent http header.
 
 =back
 
+=head1 SEE ALSO
+
+=over 4
+
+=item L<WebService::DNSMadeEasy::ManagedDomain>
+
+=item L<WebService::DNSMadeEasy::ManagedDomain::Record>
+
+=item L<WebService::DNSMadeEasy::Monitor>
+
+=back
+
 =head1 LICENSE
 
 Copyright (C) Eric Johnson.

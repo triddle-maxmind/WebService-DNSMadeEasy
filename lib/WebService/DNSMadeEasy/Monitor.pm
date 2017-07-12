@@ -131,7 +131,7 @@ WebService::DNSMadeEasy::Monitor
 
 =head1 SYNOPSIS
 
-    # Returns a L<WebService::DNSMadeEasy::Monitor> object
+    # Returns a WebService::DNSMadeEasy::Monitor object
     my $monitor = $record->get_monitor;
 
     # actions
@@ -180,5 +180,13 @@ WebService::DNSMadeEasy::Monitor
 =head1 DESCRIPTION
 
 This object represents DNS failover and system monitoring configuration.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item L<WebService::DNSMadeEasy>
+
+=back
 
 =cut

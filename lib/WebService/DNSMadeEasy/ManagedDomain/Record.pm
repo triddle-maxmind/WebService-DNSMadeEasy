@@ -210,7 +210,7 @@ WebService::DNSMadeEasy::ManagedDomain::Record
 
 =head1 SYNOPSIS
 
-    # These methods return L<WebService::DNSMadeEasy::ManagedDomain::Record> objects.
+    # These methods return WebService::DNSMadeEasy::ManagedDomain::Record objects.
     my @records = $domain->records();                # Returns all records
     my @records = $domain->records(type => 'CNAME'); # Returns all CNAME records
     my @records = $domain->records(name => 'www');   # Returns all wwww records
@@ -251,11 +251,21 @@ WebService::DNSMadeEasy::ManagedDomain::Record
     $record->value;
     $record->weight;
 
-    # Returns a L<WebService::DNSMadeEasy::Monitor> object
+    # Returns a WebService::DNSMadeEasy::Monitor object
     my $monitor = $record->get_monitor;
 
 =head1 DESCRIPTION
 
 This object represents a DNS record for a given domain.
+
+=over 4
+
+=item L<WebService::DNSMadeEasy::ManagedDomain::Record>
+
+=item L<WebService::DNSMadeEasy::Monitor>
+
+=item L<WebService::DNSMadeEasy>
+
+=back
 
 =cut
