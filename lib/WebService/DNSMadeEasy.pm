@@ -78,7 +78,7 @@ WebService::DNSMadeEasy - Implements V2.0 of the DNSMadeEasy API
     my $record  = $domain->create_record(...);
     my @records = $domain->records();                # Returns all records
     my @records = $domain->records(type => 'CNAME'); # Returns all CNAME records
-    my @records = $domain->records(name => 'www');   # Returns all wwww records
+    my @records = $domain->records(name => 'www');   # Returns all www records
     $record->update(...);
     $record->delete;
     ...
